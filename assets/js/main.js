@@ -29,7 +29,7 @@ document.querySelector("#site-footer").innerHTML = `
     <div>
       <p>UCWIT 2026 학술심포지움</p>
       <div class="flex-row">
-        <span>장소 경북대학교 크리에이티브 파크 (정보화본부 1층)</span>
+        <span>장소 경북대학교 크리에이티브 파크(KREATIVE PARK) (정보화본부 1층)</span>
         <span>문의 {내용확인필요}</span>
       </div>
     </div>
