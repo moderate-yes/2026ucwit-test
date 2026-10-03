@@ -156,3 +156,8 @@ section p + .grid-col-2 { margin-top: 0.65rem; }
 .media-grid iframe { aspect-ratio: 4 / 3; }
 .media-grid figcaption { padding: 0.4rem 0.6rem; font-size: 0.875rem; border-top: 1px solid #ddd; }
 @media screen and (max-width: 600px) { .media-grid { grid-template-columns: 1fr; } }
+.button .icon { width: 1.5rem; height: 1.5rem; flex-shrink: 0; }
+.word-file { color: hsl(230, 80%, 40%); border-color: hsl(230, 70%, 60%); }
+.word-file:hover { color: white; border-color: hsl(230, 70%, 60%); background-color: hsl(230, 70%, 40%); }
+.hwp-file { color: hsl(195, 80%, 40%); border-color: hsl(195, 70%, 50%); }
+.hwp-file:hover { color: white; border-color: hsl(195, 70%, 60%); background-color: hsl(195, 80%, 50%); }
