@@ -141,3 +141,5 @@ footer {
 }
 
 .grid-col-2 a { text-decoration: underline; color: var(--pri-dark-color); }
+.footer-logos { display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-top: 1.5rem; }
+.footer-logos img { height: 40px; width: auto; }

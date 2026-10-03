@@ -34,5 +34,9 @@ document.querySelector("#site-footer").innerHTML = `
         <span>문의 {내용확인필요}</span>
       </div>
     </div>
+    <div class="footer-logos">
+      <a href="https://www.knu.ac.kr/" target="_blank" rel="noopener"><img src="assets/img/knu-logo.png" alt="경북대학교"></a>
+      <a href="https://www.kiise.or.kr/" target="_blank" rel="noopener"><img src="assets/img/kiise-logo.png" alt="한국정보과학회"></a>
+    </div>
   </footer>`;
 
