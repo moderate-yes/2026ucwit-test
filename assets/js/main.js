@@ -15,7 +15,7 @@ document.querySelector("#site-header").innerHTML = `
     <a class="title" href="index.html">UCWIT2026</a>
     <div>
       <p><b>주최</b> 한국정보과학회</p>
-      <p><b>주관</b> {내용확인필요}</p>
+      <p><b>주관</b> 한국정보과학회 영남지부</p>
     </div>
   </div>
   <header>
@@ -29,7 +29,8 @@ document.querySelector("#site-footer").innerHTML = `
     <div>
       <p>UCWIT 2026 학술심포지움</p>
       <div class="flex-row">
-        <span>장소 경북대학교 크리에이티브 파크(KREATIVE PARK) (정보화본부 1층)</span>
+        <span>경북대학교 컴퓨터학부</span>
+        <span>(41566) 대구광역시 북구 대학로 80 경북대학교 크리에이티브 파크(KREATIVE PARK) (정보화본부 1층)</span>
         <span>문의 {내용확인필요}</span>
       </div>
     </div>

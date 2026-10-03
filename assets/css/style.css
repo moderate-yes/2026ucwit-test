@@ -140,3 +140,4 @@ footer {
   h1 { font-size: 2rem; }
 }
 
+.grid-col-2 a { text-decoration: underline; color: var(--pri-dark-color); }
