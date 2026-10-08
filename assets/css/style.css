@@ -161,4 +161,6 @@ section p + .grid-col-2 { margin-top: 0.65rem; }
 .word-file:hover { color: white; border-color: hsl(230, 70%, 60%); background-color: hsl(230, 70%, 40%); }
 .hwp-file { color: hsl(195, 80%, 40%); border-color: hsl(195, 70%, 50%); }
 .hwp-file:hover { color: white; border-color: hsl(195, 70%, 60%); background-color: hsl(195, 80%, 50%); }
+.pdf-file { color: hsl(0, 70%, 42%); border-color: hsl(0, 65%, 58%); }
+.pdf-file:hover { color: white; border-color: hsl(0, 65%, 58%); background-color: hsl(0, 70%, 45%); }
 main p a { text-decoration: underline; color: var(--pri-dark-color); }
