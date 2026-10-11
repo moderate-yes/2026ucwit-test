@@ -29,7 +29,7 @@ document.querySelector("#site-footer").innerHTML = `
     <div>
       <div class="flex-row">
         <span>경북대학교 컴퓨터학부</span>
-        <span>(41566) 대구광역시 북구 대학로 80 경북대학교 크리에이티브 파크(KREATIVE PARK) (정보화본부 1층)</span>
+        <span>(41566) 대구광역시 북구 대학로 80 경북대학교 크리에이티브 파크(KREATIVE PARK) (정보화본부 옆 부속 건물)</span>
       </div>
     </div>
   </footer>`;
