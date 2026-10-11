@@ -147,9 +147,9 @@ footer {
 .text-justify { text-align: justify; }
 section + section { padding-top: 1.5rem; }
 main .footer-logos { margin-top: 3rem; }
-main .footer-logos.footer-sponsors { margin-top: 1rem; padding-top: 0; }
-.footer-sponsors img { height: 30px; }
-.footer-sponsors img.logo-tall { height: 48px; }
+.footer-sponsors { justify-content: space-between; column-gap: 1.5rem; }
+.footer-sponsors img { height: 28px; }
+.footer-sponsors img.logo-tall { height: 42px; }
 section p + .grid-col-2 { margin-top: 0.65rem; }
 .grid-col-2 + .media-grid, .grid-col-2 + .file-list { margin-top: 1rem; }
 .media-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; align-items: start; }
