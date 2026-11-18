@@ -15,7 +15,7 @@ document.querySelector("#site-header").innerHTML = `
     <a class="title" href="index.html">UCWIT2026</a>
     <div>
       <p><b>주최</b> 한국정보과학회, 한국정보과학회 영남지부, 경북대학교</p>
-      <p><b>주관</b> 한국정보과학회 영남지부, 경북대학교 초연결융합기술연구소, 소프트웨어기술연구소</p>
+      <p><b>주관</b> 한국정보과학회 영남지부, 경북대학교 초연결융합기술연구소, 경북대학교 소프트웨어기술연구소</p>
     </div>
   </div>
   <header>
