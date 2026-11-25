@@ -185,7 +185,7 @@ h2 + h3 { padding-top: 0.25rem; }
 .paper-table td:nth-child(1), .paper-table td:nth-child(2), .paper-table td:nth-child(4) { text-align: center; }
 .nowrap { white-space: nowrap; }
 .chair { font-size: 0.85rem; color: var(--light-color); }
-.table-note { margin-top: 0.6rem; font-weight: 700; }
+.table-note { margin-top: 0.4rem; font-size: 0.85rem; font-weight: 600; text-align: right; }
 .session-meta { margin-bottom: 0.6rem; color: var(--light-color); font-weight: 600; font-size: 0.95rem; }
 @media screen and (max-width: 768px) {
   .schedule-table, .paper-table { font-size: 0.8rem; }
