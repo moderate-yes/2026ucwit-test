@@ -194,11 +194,14 @@ h2 + h3 { padding-top: 0.25rem; }
 .paper-table { width: 100%; table-layout: fixed; border-collapse: separate; border-spacing: 0; background: #fff; color: #000; font-size: 0.95rem; border-top: 1px solid #000; border-left: 1px solid #000; }
 .paper-table th, .paper-table td { border-right: 1px solid #000; border-bottom: 1px solid #000; padding: 0.4rem 0.5rem; vertical-align: middle; }
 .paper-table th { background: #d9d9d9; font-weight: 700; text-align: center; }
-.paper-table th:nth-child(1) { width: 4.5rem; } .paper-table th:nth-child(2) { width: 8.5rem; } .paper-table th:nth-child(4) { width: 7.5rem; }
-.paper-table td:nth-child(1), .paper-table td:nth-child(2), .paper-table td:nth-child(4) { text-align: center; }
+.paper-table th:nth-child(1) { width: 4.5rem; } .paper-table th:nth-child(2) { width: 36%; } .paper-table th:nth-child(4) { width: 7rem; }
+.paper-table td:nth-child(1), .paper-table td:nth-child(4) { text-align: center; }
+.paper-table td.authors { font-size: 0.85rem; line-height: 1.45; }
+.paper-table td.authors strong { font-weight: 700; text-decoration: underline; text-underline-offset: 2px; }
 
 @media screen and (max-width: 768px) {
   .schedule-table, .paper-table { font-size: 0.78rem; }
   .schedule-table th, .schedule-table td, .paper-table th, .paper-table td { padding: 0.35rem 0.2rem; overflow-wrap: anywhere; }
-  .paper-table th:nth-child(1) { width: 3.2rem; } .paper-table th:nth-child(2) { width: 4.8rem; } .paper-table th:nth-child(4) { width: 4.2rem; }
+  .paper-table th:nth-child(1) { width: 3rem; } .paper-table th:nth-child(2) { width: 38%; } .paper-table th:nth-child(4) { width: 3.8rem; }
+  .paper-table td.authors { font-size: 0.75rem; }
 }
